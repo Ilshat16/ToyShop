@@ -21,6 +21,6 @@ public class Toy {
 
     @Override
     public String toString() {
-        return this.id + ": " + this.toyName;
+        return this.id + ". " + this.toyName;
     }
 }

@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bf7acce-6913-4cdb-bd9d-9bb4e20f9cac" name="Changes" comment="Create main skeleton">
-      <change afterPath="$PROJECT_DIR$/src/model/ToyValueComparator.java" afterDir="false" />
+    <list default="true" id="3bf7acce-6913-4cdb-bd9d-9bb4e20f9cac" name="Changes" comment="Create draft programm">
+      <change afterPath="$PROJECT_DIR$/src/view/Console.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/commands/AddToy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/commands/Finish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/commands/GetToy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Toy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Toy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ToyShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ToyShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presenter/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presenter/Presenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +34,34 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="toyShopMainClass" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;CLOSED&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="Ilshat16" />
+        <option name="repository" value="ToyShop" />
+      </RepoCoordinatesHolder>
+    </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5dce21c7-1d38-4498-a5be-b2a7a64e0d3f" />
+        <option name="url" value="https://github.com/Ilshat16/ToyShop.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,12 +72,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -84,12 +115,20 @@
       <option name="project" value="LOCAL" />
       <updated>1687884140570</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create draft programm">
+      <created>1687887696672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687887696672</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Create main skeleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create main skeleton" />
+    <MESSAGE value="Create draft programm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create draft programm" />
   </component>
 </project>

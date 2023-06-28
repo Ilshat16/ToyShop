@@ -1,17 +1,13 @@
-import model.Toy;
-import model.ToyShop;
+import model.Service;
+import presenter.Presenter;
+import view.Console;
+import view.View;
 
 public class Main {
     public static void main(String[] args) {
-        Toy toy1 = new Toy(22, "car");
-        Toy toy2 = new Toy(33, "constructor");
-        Toy toy3 = new Toy(5, "console");
-        ToyShop toyShop = new ToyShop();
-        toyShop.addToy(toy1);
-        toyShop.addToy(toy2);
-        toyShop.addToy(toy3);
-        System.out.println(toyShop.getToy());
-        System.out.println(toyShop.getToy());
-        System.out.println(toyShop.getToy());
+        Service service = new Service();
+        Presenter presenter = new Presenter(service);
+        View view = new Console(presenter);
+        view.start();
     }
 }
