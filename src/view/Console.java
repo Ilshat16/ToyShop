@@ -71,4 +71,16 @@ public class Console implements View{
     public void getToy() {
         System.out.println(presenter.getToy());
     }
+
+    @Override
+    public void save() {
+        presenter.save();
+        System.out.println("Сохранение прошло успешно");
+    }
+
+
+    @Override
+    public void load() {
+        System.out.println(presenter.load());
+    }
 }

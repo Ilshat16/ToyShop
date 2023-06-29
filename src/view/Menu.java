@@ -1,9 +1,6 @@
 package view;
 
-import view.commands.AddToy;
-import view.commands.Command;
-import view.commands.Finish;
-import view.commands.GetToy;
+import view.commands.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +12,8 @@ public class Menu {
         menuList = new ArrayList<>();
         menuList.add(new AddToy(view));
         menuList.add(new GetToy(view));
+        menuList.add(new Save(view));
+        menuList.add(new Load(view));
         menuList.add(new Finish(view));
     }
 

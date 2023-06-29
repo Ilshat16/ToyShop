@@ -1,8 +1,9 @@
 package model;
 
+import java.io.Serializable;
 import java.util.PriorityQueue;
 
-public class ToyShop {
+public class ToyShop{
     private PriorityQueue<Toy> toyCollection;
 
     public ToyShop() {

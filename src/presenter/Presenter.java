@@ -16,4 +16,12 @@ public class Presenter {
     public String getToy(){
         return this.service.getToy();
     }
+
+    public void save(){
+        service.save();
+    }
+
+    public String load(){
+        return service.load();
+    }
 }

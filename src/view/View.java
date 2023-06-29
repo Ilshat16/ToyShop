@@ -5,4 +5,7 @@ public interface View {
     void finish();
     void addToy();
     void getToy();
+
+    void save();
+    void load();
 }

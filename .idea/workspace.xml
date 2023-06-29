@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bf7acce-6913-4cdb-bd9d-9bb4e20f9cac" name="Changes" comment="Create draft programm">
-      <change afterPath="$PROJECT_DIR$/src/view/Console.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/commands/AddToy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/commands/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/commands/Finish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/commands/GetToy.java" afterDir="false" />
+    <list default="true" id="3bf7acce-6913-4cdb-bd9d-9bb4e20f9cac" name="Changes" comment="Use MVP">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/FileHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Savable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/commands/Load.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/commands/Save.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Toy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Toy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ToyShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ToyShop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/presenter/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presenter/Presenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Console.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="toyShopMainClass" />
+        <entry key="$PROJECT_DIR$" value="MVP" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,7 +75,9 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Study/1st quarter/ToyShop&quot;
   }
 }</component>
   <component name="RunManager">
@@ -122,13 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687887696672</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Use MVP">
+      <created>1687973378320</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687973378320</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Create main skeleton" />
     <MESSAGE value="Create draft programm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create draft programm" />
+    <MESSAGE value="Use MVP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use MVP" />
   </component>
 </project>
